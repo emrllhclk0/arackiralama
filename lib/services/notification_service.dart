@@ -41,7 +41,6 @@ class NotificationService {
           'Kiralama Bildirimleri',
           importance: Importance.max,
           priority: Priority.high,
-          sound: RawResourceAndroidNotificationSound('alarm'),
           enableVibration: true,
           fullScreenIntent: true,
         ),
