@@ -1,0 +1,40 @@
+name: arac_kiralama
+description: "Akülü Araç Kiralama Takip ve Yönetim Uygulaması"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Supabase entegrasyonu
+  supabase_flutter: ^2.8.4
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Yerel bildirimler
+  flutter_local_notifications: ^18.0.1
+
+  # Timezone (bildirim zamanlama için)
+  timezone: ^0.10.0
+
+  # Tarih/saat formatlama
+  intl: ^0.19.0
+
+  # Modern tipografi
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
